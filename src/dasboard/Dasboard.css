@@ -1,0 +1,10 @@
+/* src/dashboard/Dashboard.css */
+.chart-container {
+    height: 20rem; /* 320px */
+}
+
+@media (min-width: 768px) {
+    .chart-container {
+        height: 24rem; /* 384px */
+    }
+}

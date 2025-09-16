@@ -1,0 +1,55 @@
+/* src/dasboard/Header/Header.css */
+
+/* MODIFIED: Added background, border, and padding to the header title */
+.app-header .navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+    background-color: #2c2c2c; /* Dark grey background */
+    border: 1px solid #444;    /* Lighter grey border */
+    padding: 0.5rem 1rem;      /* Padding around the text/logo */
+    border-radius: 8px;        /* Rounded corners */
+    transition: background-color 0.2s ease-in-out;
+}
+
+.app-header .navbar-brand:hover {
+    background-color: #3d3d3d; /* Lighter on hover */
+}
+
+.app-header .logo-svg {
+    height: 30px;
+    width: 30px;
+    margin-right: 12px;
+}
+
+/* MODIFIED: Added a border to the Sign Up button */
+.app-header .btn-signup {
+    background-color: white;
+    color: #563d7c; /* A nice purple color */
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 0.5rem 1.5rem;
+    border: 2px solid #563d7c; /* Added purple border */
+    transition: all 0.2s ease-in-out;
+}
+
+.app-header .btn-signup:hover {
+    background-color: #f1f1f1;
+    color: #463265;
+    border-color: #463265;
+}
+
+/* MODIFIED: Added background, border, and text color to the Login button */
+.app-header .btn-login {
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 0.5rem 1.5rem;
+    background-color: #0d6efd; /* Blue background */
+    border: 1px solid #0b5ed7;   /* Darker blue border */
+    color: white;                /* White text */
+    transition: all 0.2s ease-in-out;
+}
+
+.app-header .btn-login:hover {
+    background-color: #0b5ed7;
+    border-color: #0a58ca;
+}
